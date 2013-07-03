@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9e4957b5-a7ae-4075-a4e1-5395121bd800}</ProjectGuid>
+	<ProjectGuid>{91510408-afd9-44a6-8cc2-7fa871087a16}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -65,6 +65,57 @@
      <Compile Include="Assets\Grid Framework\Examples\Movement with Walls\Scripts\RoamGridWithWalls.cs" />
      <Compile Include="Assets\Grid Framework\Examples\Movement with Walls\Scripts\SetupForbiddenTiles.cs" />
      <Compile Include="Assets\Grid Framework\Examples\Runtime Snapping\Scripts\SnappingUnits.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\DragRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerDownDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerEventDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerGesturesEditorUtils.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerGesturesInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerHoverDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerMotionDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerUpDetectorInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\GestureRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\LongPressRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PinchRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudGestureEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudGestureTemplateInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\PointCloudRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\SwipeRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\TapRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\FingerGestures\TwistRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\FingerGestures.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\ContinuousGestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\DiscreteGestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\FingerEventDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizerDelegate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\FingerClusterManager.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\ScreenRaycaster.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerDownDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerHoverDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerMotionDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerUpDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\DragRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\LongPressRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PinchRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudGestureTemplate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudRegognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\SwipeRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TapRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TwistRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGMouseInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGTouchInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBDragToMove.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeMaterial.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeScale.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBPinchToScale.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBQuickSetup.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBTwistToRotate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBDragView.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBLookAtTap.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBOrbit.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPan.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPinchZoom.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\GFGrid.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\GFHexGrid.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\GFRectGrid.cs" />
@@ -83,15 +134,10 @@
      <None Include="Assets\Grid Framework\Examples\Vectorsity\Materials\LaserLine_GFVectrosiityDemo.mat" />
      <None Include="Assets\Materials\Kick.mat" />
      <None Include="Assets\Materials\Snare.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\DawnDusk Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\Eerie Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\MoonShine Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\Overcast1 Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\Overcast2 Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\StarryNight Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\Sunny1 Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\Sunny2 Skybox.mat" />
-     <None Include="Assets\Standard Assets\Skyboxes\Sunny3 Skybox.mat" />
+     <None Include="Assets\Standard Assets\Toon Shading\Toony-Basic.mat" />
+     <None Include="Assets\Standard Assets\Toon Shading\Toony-BasicOutline.mat" />
+     <None Include="Assets\Standard Assets\Toon Shading\Toony-Lighted Outline.mat" />
+     <None Include="Assets\Standard Assets\Toon Shading\Toony-Lighted.mat" />
      <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Scripts\LevelTextParser.js" />
      <None Include="Assets\Grid Framework\Examples\Movement\Scripts\RoamGrid.js" />
      <None Include="Assets\Grid Framework\Examples\Runtime Snapping\Scripts\SnappingUnits.js" />
@@ -99,13 +145,17 @@
      <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\ColorSwappingGrid.js" />
      <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\ResizingGrid.js" />
      <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\RotatingGrid.js" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Editor\TAGENIGMA Toolbox\Readme.txt" />
      <None Include="Assets\Grid Framework\Changelog.txt" />
      <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 1.txt" />
      <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 2.txt" />
      <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 3.txt" />
      <None Include="Assets\Grid Framework\Examples\Vectorsity\READ ME FIRST.txt" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
 
 
 
