@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
 
-Project("{71a0226e-adc5-4ced-8998-470118ece9db}") = "bangout", "bangout.Unity.csproj", "{91510408-afd9-44a6-8cc2-7fa871087a16}"
+Project("{52fef4df-b8a1-47cd-8add-f468d65c87aa}") = "bangout", "bangout.Unity.csproj", "{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91510408-afd9-44a6-8cc2-7fa871087a16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91510408-afd9-44a6-8cc2-7fa871087a16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91510408-afd9-44a6-8cc2-7fa871087a16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91510408-afd9-44a6-8cc2-7fa871087a16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

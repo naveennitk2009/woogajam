@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{91510408-afd9-44a6-8cc2-7fa871087a16}</ProjectGuid>
+	<ProjectGuid>{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -55,16 +55,6 @@
      <Compile Include="Assets\Editor\TAGENIGMA Toolbox\RegisterSymbol.cs" />
      <Compile Include="Assets\Editor\TAGENIGMA Toolbox\ToolboxEditor.cs" />
      <Compile Include="Assets\Grid Framework\Debug\GridDebugger.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Scripts\LevelTextParser.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Lights Off\Scripts\LightsBehaviour.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Lights Off\Scripts\SwitchManager.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Lights Off\Scripts\Extension Methods\GFGridLightsExampleExtensions.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Movement\Scripts\RoamGrid.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Movement with Walls\Scripts\BlockSquare.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Movement with Walls\Scripts\ForbiddenTilesExample.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Movement with Walls\Scripts\RoamGridWithWalls.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Movement with Walls\Scripts\SetupForbiddenTiles.cs" />
-     <Compile Include="Assets\Grid Framework\Examples\Runtime Snapping\Scripts\SnappingUnits.cs" />
      <Compile Include="Assets\Plugins\Editor\FingerGestures\DragRecognizerInspector.cs" />
      <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerDownDetectorInspector.cs" />
      <Compile Include="Assets\Plugins\Editor\FingerGestures\FingerEventDetectorInspector.cs" />
@@ -124,37 +114,20 @@
      <Compile Include="Assets\Plugins\Grid Framework\Extension Methods\GFVectorTwoExtensions.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\Grid Rendering\GFGridRenderCamera.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\Grid Rendering\GFGridRenderManager.cs" />
+     <Compile Include="Assets\Scripts\Input.cs" />
      <Compile Include="Assets\Scripts\TrackBehavior.cs" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Colours\Blue.mat" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Colours\Green.mat" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Colours\Red.mat" />
-     <None Include="Assets\Grid Framework\Examples\Lights Off\Materials\Bright Yellow.mat" />
-     <None Include="Assets\Grid Framework\Examples\Lights Off\Materials\Dark Yellow.mat" />
-     <None Include="Assets\Grid Framework\Examples\Runtime Snapping\Materials\Gray.mat" />
-     <None Include="Assets\Grid Framework\Examples\Vectorsity\Materials\LaserLine_GFVectrosiityDemo.mat" />
      <None Include="Assets\Materials\Kick.mat" />
      <None Include="Assets\Materials\Snare.mat" />
      <None Include="Assets\Standard Assets\Toon Shading\Toony-Basic.mat" />
      <None Include="Assets\Standard Assets\Toon Shading\Toony-BasicOutline.mat" />
      <None Include="Assets\Standard Assets\Toon Shading\Toony-Lighted Outline.mat" />
      <None Include="Assets\Standard Assets\Toon Shading\Toony-Lighted.mat" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Scripts\LevelTextParser.js" />
-     <None Include="Assets\Grid Framework\Examples\Movement\Scripts\RoamGrid.js" />
-     <None Include="Assets\Grid Framework\Examples\Runtime Snapping\Scripts\SnappingUnits.js" />
-     <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\BouncyGrid.js" />
-     <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\ColorSwappingGrid.js" />
-     <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\ResizingGrid.js" />
-     <None Include="Assets\Grid Framework\Examples\Vectorsity\Scripts\RotatingGrid.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Editor\TAGENIGMA Toolbox\Readme.txt" />
      <None Include="Assets\Grid Framework\Changelog.txt" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 1.txt" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 2.txt" />
-     <None Include="Assets\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 3.txt" />
-     <None Include="Assets\Grid Framework\Examples\Vectorsity\READ ME FIRST.txt" />
      <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
 
 
