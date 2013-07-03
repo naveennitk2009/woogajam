@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+
+Project("{e8bba040-ef94-48b5-88e3-a1754ce0be61}") = "bangout", "bangout.Unity.csproj", "{7cd9d7d4-627e-434f-a959-e69b85480d94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7cd9d7d4-627e-434f-a959-e69b85480d94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7cd9d7d4-627e-434f-a959-e69b85480d94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7cd9d7d4-627e-434f-a959-e69b85480d94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7cd9d7d4-627e-434f-a959-e69b85480d94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+
+EndGlobal
