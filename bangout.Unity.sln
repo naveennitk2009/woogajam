@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
 
-Project("{52fef4df-b8a1-47cd-8add-f468d65c87aa}") = "bangout", "bangout.Unity.csproj", "{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}"
+Project("{9e555854-9d48-4629-b8cb-e7898338ad44}") = "bangout", "bangout.Unity.csproj", "{630e27db-c066-4b59-8e4a-7df1035af9e1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630e27db-c066-4b59-8e4a-7df1035af9e1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630e27db-c066-4b59-8e4a-7df1035af9e1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630e27db-c066-4b59-8e4a-7df1035af9e1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630e27db-c066-4b59-8e4a-7df1035af9e1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

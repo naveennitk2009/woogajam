@@ -3,16 +3,28 @@ using System.Collections;
 
 public class Input : MonoBehaviour
 {
+	private BeatCollider beatCollider;
+
+	void Awake()
+	{
+		beatCollider = GameObject.Find("Collider").GetComponent<BeatCollider>();
+	}
+
+	void OnStart()
+	{
+		
+	}
+
 	void OnTap(TapGesture gesture)
 	{
 		var middle = Screen.width/2;
 		if (gesture.Position.x <= middle)
 		{
-			Debug.Log("Left tap");
+			beatCollider.SendMessage("OnCheckSound", SoundType.Snare);
 		}
 		else
 		{
-			Debug.Log("Right tap");
+			beatCollider.SendMessage("OnCheckSound", SoundType.Kick);
 		}
 	}
 }

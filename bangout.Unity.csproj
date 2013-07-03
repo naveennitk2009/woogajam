@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{f0d5e5dd-263d-4df8-aa94-a0cfb0a5254b}</ProjectGuid>
+	<ProjectGuid>{630e27db-c066-4b59-8e4a-7df1035af9e1}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -114,7 +114,9 @@
      <Compile Include="Assets\Plugins\Grid Framework\Extension Methods\GFVectorTwoExtensions.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\Grid Rendering\GFGridRenderCamera.cs" />
      <Compile Include="Assets\Plugins\Grid Framework\Grid Rendering\GFGridRenderManager.cs" />
+     <Compile Include="Assets\Scripts\BeatCollider.cs" />
      <Compile Include="Assets\Scripts\Input.cs" />
+     <Compile Include="Assets\Scripts\SoundElement.cs" />
      <Compile Include="Assets\Scripts\TrackBehavior.cs" />
      <None Include="Assets\Materials\Kick.mat" />
      <None Include="Assets\Materials\Snare.mat" />
